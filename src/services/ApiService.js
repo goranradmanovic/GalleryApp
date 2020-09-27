@@ -18,7 +18,7 @@ let get = url => {
 };
 
 export default {
-  baseUrl,
+  //baseUrl,
 
   //Get all images list
   getAllImagesList() {
