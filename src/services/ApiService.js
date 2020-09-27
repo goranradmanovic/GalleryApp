@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseUrl = '/api-test';
+let baseUrl = 'https://portal-tb.lynxx.co/api-test';
 
 let get = url => {
   return axios.get(url, {
