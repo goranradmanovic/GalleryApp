@@ -15,22 +15,20 @@
 
 		data() {
 			return {
-				imagesList: []
+
+			}
+		},
+
+		computed: {
+			imagesList() {
+				return this.allImagesList();
 			}
 		},
 
 		methods: {
 			...mapGetters([
 				'allImagesList'
-			]),
-
-			setImagesList() {
-				this.imagesList = this.allImagesList();
-			}
+			])
 		},
-
-		mounted() {
-			this.setImagesList();
-		}
 	}
 </script>
