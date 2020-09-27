@@ -8,6 +8,8 @@
         router-view
 
     footer.footer
+      p.footer__info Designed &amp; Developed By &nbsp;
+        a.footer__info--link(href='https://goranradmanovic.github.io/' target='_blank') Goran Radmanovic
 </template>
 
 <script>
