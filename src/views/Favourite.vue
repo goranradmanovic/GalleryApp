@@ -1,7 +1,7 @@
 <template lang="pug">
 	.main__section--content
 		h1.main__section--content--title Favourite Images List
-		.main__section--content--masonry
+		.main__section--content--masonry.favourite
 			router-link.main__section--content--link(v-for='(item, index) in favouriteImages' :key='index' :to='{path: "/image/" + index}')
 				img.main__section--content--link--img(:src='"https://portal-tb.lynxx.co/api-test/image/" + item.id' :alt='item.name' loading='lazy')
 				span {{ item.name }}
