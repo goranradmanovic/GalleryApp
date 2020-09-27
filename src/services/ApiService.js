@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseUrl = 'https://portal-tb.lynxx.co/api-test';
+//let baseUrl = 'https://portal-tb.lynxx.co/api-test';
 
 let get = url => {
   return axios.get(url, {
@@ -22,6 +22,6 @@ export default {
 
   //Get all images list
   getAllImagesList() {
-    return get(`${baseUrl}/image/list`);
+    return get(`/image/list`);
   }
 };
